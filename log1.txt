@@ -1,0 +1,1822 @@
+Id: 1
+Execution Stack:
+(Name: a, Type: Ref(int);(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: a, Type: Ref(int)
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: a, Type: Ref(int)
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+new(a, 20)
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+new(a, 20)
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Name: v, Type: int;(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Name: v, Type: int;(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=0
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=0
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 20
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 40
+Out Table:
+0
+1
+2
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Name: a, Type: Ref(int);(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: a, Type: Ref(int)
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: a, Type: Ref(int)
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(new(a, 20);(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a))))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+new(a, 20)
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+new(a, 20)
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)));print(rH(a)))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+for(v=0;3;v=v+1)Fork((print(v);v=v*rH(a)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Name: v, Type: int;(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Name: v, Type: int;(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(v=0;While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1))
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=0
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=0
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 2
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 0
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Fork((print(v);v=v*rH(a)));v=v+1)
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 1
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 3
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 20
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Fork((print(v);v=v*rH(a)))
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+v=v+1
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+(print(v);v=v*rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+While(v<3) (Fork((print(v);v=v*rH(a)));v=v+1)
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+print(v)
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+v=v*rH(a)
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 2
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+print(rH(a))
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 4
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 40
+Out Table:
+0
+1
+2
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(1,int)
+Key: v, Value: 3
+Out Table:
+0
+1
+2
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+

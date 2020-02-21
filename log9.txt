@@ -1,0 +1,241 @@
+Id: 1
+Execution Stack:
+(Name: v, Type: Ref(int);(new(v, 20);(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5))))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: v, Type: Ref(int)
+(new(v, 20);(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5)))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: v, Type: Ref(int)
+(new(v, 20);(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5)))))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(new(v, 20);(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5)))))
+Sym Table:
+Key: v, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(new(v, 20);(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5)))))
+Sym Table:
+Key: v, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+new(v, 20)
+(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5))))
+Sym Table:
+Key: v, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+new(v, 20)
+(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5))))
+Sym Table:
+Key: v, Value: RefValue(0,int)
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5))))
+Sym Table:
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(Name: a, Type: Ref(Ref(int));(new(a, v);(print(rH(v));print(rH(rH(a))+5))))
+Sym Table:
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Name: a, Type: Ref(Ref(int))
+(new(a, v);(print(rH(v));print(rH(rH(a))+5)))
+Sym Table:
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+Name: a, Type: Ref(Ref(int))
+(new(a, v);(print(rH(v));print(rH(rH(a))+5)))
+Sym Table:
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(new(a, v);(print(rH(v));print(rH(rH(a))+5)))
+Sym Table:
+Key: a, Value: RefValue(0,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(new(a, v);(print(rH(v));print(rH(rH(a))+5)))
+Sym Table:
+Key: a, Value: RefValue(0,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+new(a, v)
+(print(rH(v));print(rH(rH(a))+5))
+Sym Table:
+Key: a, Value: RefValue(0,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+new(a, v)
+(print(rH(v));print(rH(rH(a))+5))
+Sym Table:
+Key: a, Value: RefValue(0,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+
+Id: 1
+Execution Stack:
+(print(rH(v));print(rH(rH(a))+5))
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+
+Id: 1
+Execution Stack:
+(print(rH(v));print(rH(rH(a))+5))
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+
+Id: 1
+Execution Stack:
+print(rH(v))
+print(rH(rH(a))+5)
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+
+Id: 1
+Execution Stack:
+print(rH(v))
+print(rH(rH(a))+5)
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+
+Id: 1
+Execution Stack:
+print(rH(rH(a))+5)
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+
+Id: 1
+Execution Stack:
+print(rH(rH(a))+5)
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+20
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: a, Value: RefValue(2,Ref(int))
+Key: v, Value: RefValue(1,int)
+Out Table:
+20
+25
+FileTable:
+Heap:
+Key: 1, Value: 20
+Key: 2, Value: RefValue(1,int)
+

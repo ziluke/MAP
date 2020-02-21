@@ -1,0 +1,182 @@
+Id: 1
+Execution Stack:
+(Name: v, Type: int;(v=2;print(v)))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=2;print(v))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=2;print(v))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(v=2;print(v))
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(v=2;print(v))
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+v=2
+print(v)
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+v=2
+print(v)
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+print(v)
+Sym Table:
+Key: v, Value: 2
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+print(v)
+Sym Table:
+Key: v, Value: 2
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: v, Value: 2
+Out Table:
+2
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(Name: v, Type: int;(v=2;print(v)))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=2;print(v))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Name: v, Type: int
+(v=2;print(v))
+Sym Table:
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(v=2;print(v))
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+(v=2;print(v))
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+v=2
+print(v)
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+v=2
+print(v)
+Sym Table:
+Key: v, Value: 0
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+print(v)
+Sym Table:
+Key: v, Value: 2
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+print(v)
+Sym Table:
+Key: v, Value: 2
+Out Table:
+FileTable:
+Heap:
+
+Id: 1
+Execution Stack:
+Sym Table:
+Key: v, Value: 2
+Out Table:
+2
+FileTable:
+Heap:
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="821.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainCtrl">
+   <left>
+      <VBox prefHeight="513.0" prefWidth="231.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="heapView" prefHeight="171.0" prefWidth="189.0">
+              <columns>
+                <TableColumn fx:id="heapAddr" prefWidth="112.0" text="Address" />
+                <TableColumn fx:id="heapValue" prefWidth="118.0" text="Value" />
+              </columns>
+            </TableView>
+            <ListView fx:id="outView" prefHeight="200.0" prefWidth="200.0" />
+            <ListView fx:id="fileView" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <TextField fx:id="prgField" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <ListView fx:id="prgView" prefHeight="513.0" prefWidth="309.0" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <VBox prefHeight="513.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="symView" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="symName" prefWidth="97.0" text="Name" />
+                <TableColumn fx:id="symValue" prefWidth="197.0" text="Value" />
+              </columns>
+            </TableView>
+            <ListView fx:id="execView" prefHeight="305.0" prefWidth="189.0" />
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <Button fx:id="runBtn" mnemonicParsing="false" onMouseClicked="#oneStep" text="Run One Step" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
